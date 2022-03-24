@@ -1,7 +1,7 @@
 import { useState } from "react";
 import GameRow from "../game-row/game-row";
 import Header from "../header/header";
-import Modal from "../modal/modal";
+import Modal from "../modal/modal-interface.ts";
 import "./game.scss";
 const Game = () => {
     const [showModal, setShowModal] = useState(false);
