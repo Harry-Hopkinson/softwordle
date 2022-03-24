@@ -163,7 +163,6 @@ const useGameRowHook = () => {
                             refreshMessage(word, 3000);
                             setCookie("gameFinished", 1);
                         } else {
-                            refreshMessage(MESSAGE.INCORRECT);
                             setCookie("tryCount", nextTry);
                             setCookie("number", 0);
                             setCookie("gameFinished", 0);
