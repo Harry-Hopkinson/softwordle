@@ -7,7 +7,7 @@ export const KEYBOARD = {
 
 export const MESSAGE = {
     CORRECT: "Correct",
-    NOT_EXIST: "This word doesn't exist at all!",
+    NOT_EXIST: "That word does not exist",
     NOT_ENOUGH_LETTER: "Not enough letters",
     FINISH_GAME: "Game is finished",
 };
