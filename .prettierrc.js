@@ -6,4 +6,5 @@ module.exports = {
     semi: true,
 };
 
-// prettier --config ./.prettierrc.js --check .
+// npx prettier --config ./.prettierrc.js --check .
+// npx prettier --config ./.prettierrc.js --write .
